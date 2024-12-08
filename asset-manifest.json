@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/BrickNotes/static/css/main.ad409199.css",
+    "main.js": "/BrickNotes/static/js/main.17959667.js",
+    "static/media/background-image.jpg": "/BrickNotes/static/media/background-image.038a852428b8dc09cd87.jpg",
+    "static/media/bootstrap-icons.woff?": "/BrickNotes/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/BrickNotes/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/circleofnotes.png": "/BrickNotes/static/media/circleofnotes.64eadcba6466188e013b.png",
+    "static/media/logo.png": "/BrickNotes/static/media/logo.64c8fd506b2c49c0beb3.png",
+    "index.html": "/BrickNotes/index.html",
+    "main.ad409199.css.map": "/BrickNotes/static/css/main.ad409199.css.map",
+    "main.17959667.js.map": "/BrickNotes/static/js/main.17959667.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad409199.css",
+    "static/js/main.17959667.js"
+  ]
+}
