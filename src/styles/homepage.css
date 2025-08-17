@@ -1,0 +1,20 @@
+:root {
+    --primary: #CEE5D0; /* change the primary color to #3498db */
+    --secondary: #F7D59C;
+    --custom1: #5E454B;
+    --custom2: #F3F0D7;
+  }
+
+.banner {
+    background: url('../images/background-image.jpg') no-repeat center center;
+    background-size: cover; /* Makes the image cover the entire container */
+    width: 100%; /* Full width */
+    height: 600px; /* Adjust height as needed */
+    position: relative;
+}
+
+.highlight {
+    display: inline-block;
+    margin: auto;
+    padding: 5px 10px;
+}

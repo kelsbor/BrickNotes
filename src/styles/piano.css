@@ -1,0 +1,69 @@
+/* Piano container grid styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); /* Responsive layout */
+  gap: 16px; /* Space between items */
+  margin: 16px;
+  justify-content: center; /* Center the grid */
+}
+
+/* Individual piano styling */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Add Piano button */
+.add-piano-btn {
+  margin-bottom: 16px;
+}
+
+.play-button {
+  margin: 5px;
+  margin-top: 16px;
+  justify-content: left;
+}
+.switch-button {
+  margin: 5px;
+  margin-top: 16px;
+  
+}
+/* Remove Piano button */
+.remove-piano-btn {
+  margin-top: 8px;
+  
+}
+
+/* Navbar styling */
+.navbar { /* Darker background for contrast */
+  color: #fff;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.navbar .btn {
+  margin: 0 8px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Smaller minimum width for smaller screens */
+  }
+  .axis-selector {
+    max-width: 400px; /* Use the full size only when there is enough space */
+  }
+}
